@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    padding-bottom: 3em;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+main{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+}
+.card{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: #1f2630;
+    /* display: flex; */
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.start{
+    margin: 30px;
+    background-color: #262f38;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.start img{
+    margin: 11px;
+}
+
+.card h2{
+    margin-top: 40px;
+    margin-left: 25px ;
+}
+.card p{
+    color: #fff;
+    opacity: 0.5;
+    margin: 25px;
+    margin-top: 10px;
+}
+
+.botones{
+    /* margin: 10px; */
+    /* margin-left: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card .button{
+    width: 50px;
+    height: 50px;
+     margin: 10px; 
+    border-radius: 50%;
+    border: none;
+    color: #76808c;
+    background-color: #262f38;
+    font-size: medium;
+}
+.card .button:hover{
+    background-color: #7c8898;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card .button:active{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.buttonalf{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 80%;
+    height: 45px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.buttonalf:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+
+#gracias{
+    /* display: none; */
+     font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: #1f2630;
+    /* display: flex; */
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+
+/* -------RESULT RESULT RESULT------- */
+
+.thx img{
+    margin: 40px;
+    margin-left: 100px;
+}
+
+.thx .result{
+     background-color: #262f38;
+    width: 220px;
+    height: 35px;
+    margin-left: 90px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.thx p{
+    color: hsl(25, 97%, 53%);
+    margin-top: 30px;
+    text-align:center;   
+}
+
+.thx h2{
+    margin: 10px 100px;
+}
+
+.thx h3{
+    margin-top: 15px;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.thx .texto{
+    margin: 20px;
+}
+
+.attribution{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution .att{
+    color: #7c8898;
+}
+
+.attribution a{
+    text-decoration: none;
+    color: #76808c;
+}
