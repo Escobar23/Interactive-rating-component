@@ -14,7 +14,7 @@ function getRateNumber(event) {
 function thankHtml(rate) {
     let thankHtml = `<div class="box-container" id="thx-box"> 
 <div class="thx" id="gracias">
-  <img src="../images/illustration-thank-you.svg" alt="">
+  <img src="./thank.svg" alt="">
   <div class="result">
  <p class="rtng-result"> You selected ${rate} out of 5 </p>
   </div>
