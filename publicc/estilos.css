@@ -19,6 +19,7 @@ main{
     height: 45rem;
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 .card{
     font-family: 'Overpass', sans-serif;
@@ -52,7 +53,7 @@ main{
     margin-top: 10px;
 }
 
-.botones{
+.buttons{
     /* margin: 10px; */
     /* margin-left: 50px; */
     display: flex;
@@ -71,6 +72,7 @@ main{
     color: #76808c;
     background-color: #262f38;
     font-size: medium;
+    transition: all 300ms; 
 }
 .card .button:hover{
     background-color: #7c8898;
@@ -93,6 +95,7 @@ main{
     color: #fff;
     font-size: 14px;
     font-weight: 600;
+    transition: all 300ms; 
 }
 
 .buttonalf:hover{
